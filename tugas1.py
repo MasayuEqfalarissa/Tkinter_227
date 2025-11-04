@@ -23,4 +23,7 @@ def tampilkan_hasil():
 tombol = tk.Button(top, text="Hasil Prediksi", fg="navy", command=tampilkan_hasil)
 tombol.pack(pady=15)
 
+Label_hasil = tk.Label(top, text="Prodi: Tekologi Informasi", bg="pink", fg="purple")
+Label_hasil.pack(pady=10)
 
+top.mainloop()
