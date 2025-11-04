@@ -15,3 +15,12 @@ for i in range(1, 11):
     E1 = tk.Entry(top, bd=2)
     E1.pack()
 
+def tampilkan_hasil():
+    Label_hasil = tk.Label(top, text="Prodi: Teknologi Informasi", fg="darkblue")
+    Label_hasil.pack(pady=10)
+    
+
+tombol = tk.Button(top, text="Hasil Prediksi", fg="navy", command=tampilkan_hasil)
+tombol.pack(pady=15)
+
+
